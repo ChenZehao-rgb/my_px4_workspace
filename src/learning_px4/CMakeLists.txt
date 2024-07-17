@@ -11,6 +11,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  geometry_msgs
+  mavros_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -149,6 +151,10 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+
+add_executable(${learning_px4}_node src/get_and_pub.cpp)
+add_dependencies(${learning_px4}_node ${${learning_px4}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(${learning_px4}_node ${catkin_LIBRARIES})
 
 #############
 ## Install ##
