@@ -1,0 +1,2 @@
+learning_px4
+-DCATKIN_DEVEL_PREFIX=/home/chen/my_px4_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/chen/my_px4_workspace/install -G Unix Makefiles
