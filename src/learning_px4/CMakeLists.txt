@@ -152,9 +152,9 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
-add_executable(${learning_px4}_node src/get_and_pub.cpp)
-add_dependencies(${learning_px4}_node ${${learning_px4}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(${learning_px4}_node ${catkin_LIBRARIES})
+add_executable(${learning_px4}px4_pub_pos src/get_and_pub.cpp)
+add_dependencies(${learning_px4}px4_pub_pos ${${learning_px4}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(${learning_px4}px4_pub_pos ${catkin_LIBRARIES})
 
 #############
 ## Install ##

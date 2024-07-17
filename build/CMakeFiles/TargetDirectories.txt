@@ -37,7 +37,6 @@
 /home/chen/my_px4_workspace/build/gtest/googletest/CMakeFiles/gtest.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/install.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/list_install_components.dir
-/home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/_node.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/uuid_msgs_generate_messages_py.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir
@@ -70,6 +69,7 @@
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/std_msgs_generate_messages_py.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+/home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/px4_pub_pos.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/mavros_msgs_generate_messages_cpp.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/mavros_msgs_generate_messages_eus.dir
 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/edit_cache.dir

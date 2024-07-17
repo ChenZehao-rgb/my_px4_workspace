@@ -168,21 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-learning_px4/CMakeFiles/_node.dir/rule:
-	cd /home/chen/my_px4_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 learning_px4/CMakeFiles/_node.dir/rule
-.PHONY : learning_px4/CMakeFiles/_node.dir/rule
-
-# Convenience name for target.
-_node: learning_px4/CMakeFiles/_node.dir/rule
-
-.PHONY : _node
-
-# fast build rule for target.
-_node/fast:
-	cd /home/chen/my_px4_workspace/build && $(MAKE) -f learning_px4/CMakeFiles/_node.dir/build.make learning_px4/CMakeFiles/_node.dir/build
-.PHONY : _node/fast
-
-# Convenience name for target.
 learning_px4/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/chen/my_px4_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 learning_px4/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : learning_px4/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
@@ -618,6 +603,21 @@ geometry_msgs_generate_messages_eus/fast:
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
+learning_px4/CMakeFiles/px4_pub_pos.dir/rule:
+	cd /home/chen/my_px4_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 learning_px4/CMakeFiles/px4_pub_pos.dir/rule
+.PHONY : learning_px4/CMakeFiles/px4_pub_pos.dir/rule
+
+# Convenience name for target.
+px4_pub_pos: learning_px4/CMakeFiles/px4_pub_pos.dir/rule
+
+.PHONY : px4_pub_pos
+
+# fast build rule for target.
+px4_pub_pos/fast:
+	cd /home/chen/my_px4_workspace/build && $(MAKE) -f learning_px4/CMakeFiles/px4_pub_pos.dir/build.make learning_px4/CMakeFiles/px4_pub_pos.dir/build
+.PHONY : px4_pub_pos/fast
+
+# Convenience name for target.
 learning_px4/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule:
 	cd /home/chen/my_px4_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 learning_px4/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
 .PHONY : learning_px4/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
@@ -788,7 +788,7 @@ src/get_and_pub.o: src/get_and_pub.cpp.o
 
 # target to build an object file
 src/get_and_pub.cpp.o:
-	cd /home/chen/my_px4_workspace/build && $(MAKE) -f learning_px4/CMakeFiles/_node.dir/build.make learning_px4/CMakeFiles/_node.dir/src/get_and_pub.cpp.o
+	cd /home/chen/my_px4_workspace/build && $(MAKE) -f learning_px4/CMakeFiles/px4_pub_pos.dir/build.make learning_px4/CMakeFiles/px4_pub_pos.dir/src/get_and_pub.cpp.o
 .PHONY : src/get_and_pub.cpp.o
 
 src/get_and_pub.i: src/get_and_pub.cpp.i
@@ -797,7 +797,7 @@ src/get_and_pub.i: src/get_and_pub.cpp.i
 
 # target to preprocess a source file
 src/get_and_pub.cpp.i:
-	cd /home/chen/my_px4_workspace/build && $(MAKE) -f learning_px4/CMakeFiles/_node.dir/build.make learning_px4/CMakeFiles/_node.dir/src/get_and_pub.cpp.i
+	cd /home/chen/my_px4_workspace/build && $(MAKE) -f learning_px4/CMakeFiles/px4_pub_pos.dir/build.make learning_px4/CMakeFiles/px4_pub_pos.dir/src/get_and_pub.cpp.i
 .PHONY : src/get_and_pub.cpp.i
 
 src/get_and_pub.s: src/get_and_pub.cpp.s
@@ -806,7 +806,7 @@ src/get_and_pub.s: src/get_and_pub.cpp.s
 
 # target to generate assembly for a file
 src/get_and_pub.cpp.s:
-	cd /home/chen/my_px4_workspace/build && $(MAKE) -f learning_px4/CMakeFiles/_node.dir/build.make learning_px4/CMakeFiles/_node.dir/src/get_and_pub.cpp.s
+	cd /home/chen/my_px4_workspace/build && $(MAKE) -f learning_px4/CMakeFiles/px4_pub_pos.dir/build.make learning_px4/CMakeFiles/px4_pub_pos.dir/src/get_and_pub.cpp.s
 .PHONY : src/get_and_pub.cpp.s
 
 # Help Target
@@ -817,7 +817,6 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... _node"
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... uuid_msgs_generate_messages_py"
 	@echo "... uuid_msgs_generate_messages_nodejs"
@@ -850,6 +849,7 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... px4_pub_pos"
 	@echo "... mavros_msgs_generate_messages_cpp"
 	@echo "... mavros_msgs_generate_messages_eus"
 	@echo "... edit_cache"

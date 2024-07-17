@@ -285,19 +285,6 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named _node
-
-# Build rule for target.
-_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _node
-.PHONY : _node
-
-# fast build rule for target.
-_node/fast:
-	$(MAKE) -f learning_px4/CMakeFiles/_node.dir/build.make learning_px4/CMakeFiles/_node.dir/build
-.PHONY : _node/fast
-
-#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -675,6 +662,19 @@ geometry_msgs_generate_messages_eus/fast:
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named px4_pub_pos
+
+# Build rule for target.
+px4_pub_pos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 px4_pub_pos
+.PHONY : px4_pub_pos
+
+# fast build rule for target.
+px4_pub_pos/fast:
+	$(MAKE) -f learning_px4/CMakeFiles/px4_pub_pos.dir/build.make learning_px4/CMakeFiles/px4_pub_pos.dir/build
+.PHONY : px4_pub_pos/fast
+
+#=============================================================================
 # Target rules for targets named mavros_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -839,7 +839,6 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... _node"
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... uuid_msgs_generate_messages_py"
 	@echo "... uuid_msgs_generate_messages_nodejs"
@@ -869,6 +868,7 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... px4_pub_pos"
 	@echo "... mavros_msgs_generate_messages_cpp"
 	@echo "... mavros_msgs_generate_messages_eus"
 	@echo "... mavros_msgs_generate_messages_lisp"
