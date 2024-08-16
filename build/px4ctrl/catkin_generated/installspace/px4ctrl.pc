@@ -1,0 +1,8 @@
+prefix=/home/chen/Learning_Linux/my_px4_workspace/install
+
+Name: px4ctrl
+Description: Description of px4ctrl
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

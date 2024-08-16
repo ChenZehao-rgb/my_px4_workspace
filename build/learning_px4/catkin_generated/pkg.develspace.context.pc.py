@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "learning_px4"
-PROJECT_SPACE_DIR = "/home/chen/my_px4_workspace/devel"
+PROJECT_SPACE_DIR = "/home/chen/Learning_Linux/my_px4_workspace/devel"
 PROJECT_VERSION = "0.0.0"

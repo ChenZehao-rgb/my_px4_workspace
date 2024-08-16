@@ -1,4 +1,4 @@
-prefix=/home/chen/my_px4_workspace/install
+prefix=/home/chen/Learning_Linux/my_px4_workspace/install
 
 Name: learning_px4
 Description: Description of learning_px4

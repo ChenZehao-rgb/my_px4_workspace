@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chen/my_px4_workspace/src
+CMAKE_SOURCE_DIR = /home/chen/Learning_Linux/my_px4_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chen/my_px4_workspace/build
+CMAKE_BINARY_DIR = /home/chen/Learning_Linux/my_px4_workspace/build
 
 # Utility rule file for uuid_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ learning_px4/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build: uuid_msgs_gen
 .PHONY : learning_px4/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
 
 learning_px4/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/clean:
-	cd /home/chen/my_px4_workspace/build/learning_px4 && $(CMAKE_COMMAND) -P CMakeFiles/uuid_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/chen/Learning_Linux/my_px4_workspace/build/learning_px4 && $(CMAKE_COMMAND) -P CMakeFiles/uuid_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : learning_px4/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/clean
 
 learning_px4/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/depend:
-	cd /home/chen/my_px4_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/my_px4_workspace/src /home/chen/my_px4_workspace/src/learning_px4 /home/chen/my_px4_workspace/build /home/chen/my_px4_workspace/build/learning_px4 /home/chen/my_px4_workspace/build/learning_px4/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chen/Learning_Linux/my_px4_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/Learning_Linux/my_px4_workspace/src /home/chen/Learning_Linux/my_px4_workspace/src/learning_px4 /home/chen/Learning_Linux/my_px4_workspace/build /home/chen/Learning_Linux/my_px4_workspace/build/learning_px4 /home/chen/Learning_Linux/my_px4_workspace/build/learning_px4/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_px4/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/depend
 

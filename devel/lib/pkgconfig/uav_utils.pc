@@ -1,0 +1,8 @@
+prefix=/home/chen/Learning_Linux/my_px4_workspace/devel
+
+Name: uav_utils
+Description: Description of uav_utils
+Version: 0.0.0
+Cflags: -I/home/chen/Learning_Linux/my_px4_workspace/src/uav_utils/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy

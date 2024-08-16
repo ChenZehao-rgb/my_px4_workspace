@@ -67,14 +67,14 @@ set(learning_px4_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(learning_px4_SOURCE_PREFIX /home/chen/my_px4_workspace/src/learning_px4)
-  set(learning_px4_DEVEL_PREFIX /home/chen/my_px4_workspace/devel)
+  set(learning_px4_SOURCE_PREFIX /home/chen/Learning_Linux/my_px4_workspace/src/learning_px4)
+  set(learning_px4_DEVEL_PREFIX /home/chen/Learning_Linux/my_px4_workspace/devel)
   set(learning_px4_INSTALL_PREFIX "")
   set(learning_px4_PREFIX ${learning_px4_DEVEL_PREFIX})
 else()
   set(learning_px4_SOURCE_PREFIX "")
   set(learning_px4_DEVEL_PREFIX "")
-  set(learning_px4_INSTALL_PREFIX /home/chen/my_px4_workspace/install)
+  set(learning_px4_INSTALL_PREFIX /home/chen/Learning_Linux/my_px4_workspace/install)
   set(learning_px4_PREFIX ${learning_px4_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/chen/my_px4_workspace/install/lib;/home/chen/my_px4_workspace/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/chen/Learning_Linux/my_px4_workspace/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
