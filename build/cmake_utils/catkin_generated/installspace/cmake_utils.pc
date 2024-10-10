@@ -1,8 +1,0 @@
-prefix=/home/chen/Learning_Linux/my_px4_workspace/install
-
-Name: cmake_utils
-Description: Description of cmake_utils
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

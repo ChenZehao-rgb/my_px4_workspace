@@ -1,8 +1,0 @@
-prefix=/home/chen/Learning_Linux/my_px4_workspace/install
-
-Name: learning_px4
-Description: Description of learning_px4
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

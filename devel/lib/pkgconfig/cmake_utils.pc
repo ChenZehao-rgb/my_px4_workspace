@@ -1,4 +1,4 @@
-prefix=/home/chen/Learning_Linux/my_px4_workspace/devel
+prefix=/home/chen/my_px4_workspace/devel
 
 Name: cmake_utils
 Description: Description of cmake_utils

@@ -1,2 +1,0 @@
-cmake_utils:learning_px4:px4ctrl:quadrotor_msgs:uav_utils
--DCATKIN_DEVEL_PREFIX=/home/chen/Learning_Linux/my_px4_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/chen/Learning_Linux/my_px4_workspace/install -G Unix Makefiles
